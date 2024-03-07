@@ -22,9 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function DarkMode() {
   const theme = useTheme();
   let ms;
-  theme.palette.mode === "dark"
-    ? (ms = " الضوء الفاتح")
-    : (ms = "  الضوء الليلي ");
+  theme.palette.mode === "dark" ? (ms = "الضوء الفاتح") : (ms = "الضوء الليلي");
 
   return (
     <Grid container="true" spacing={2} style={{ fontWeight: "bold" }}>
