@@ -1,0 +1,443 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Card-light {
+  box-shadow: 5px 5px 30px #c7c7c7;
+  border-radius: 40px;
+}
+
+.Card-dark {
+  box-shadow: -5px 5px 20px #263238;
+  border-radius: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.iconButton {
+  transition: all 0.2s !important;
+}
+
+.MuiPaper-root {
+  transition: all 0.5s ease-in-out;
+}
+.MuiPaper-elevation {
+  transition: all 0.5s ease-in-out;
+}
+.MuiPaper-rounded {
+  transition: all 0.5s ease-in-out;
+}
+.MuiPaper-elevation1 {
+  transition: all 0.5s ease-in-out;
+}
+.MuiCard-root {
+  transition: all 0.5s ease-in-out;
+}
+.css-1ni1nnj-MuiPaper-root-MuiCard-root {
+  transition: all 0.5s ease-in-out;
+}
+
+/* .iconButton:hover {
+  color: #ef9a9a !important;
+
+} */
+
+.todoCard {
+  transition: all 0.2s !important;
+  border-radius: 10px !important;
+}
+
+/* .Dialog{
+  opacity: 50% !important;
+} */
+
+.todoCard:hover {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: 1px 2px 2px 1px #fbc02d;
+}
+
+/* ===== CUSTOM FONTS ====== */
+@font-face {
+  font-family: Rocher;
+  src: url("../public/fonts/RocherColorGX.woff2");
+}
+
+@font-face {
+  font-family: BakbakOne;
+  font-display: auto;
+  src: url("../public/fonts/BakbakOne-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Alexandria;
+  font-display: auto;
+  src: url("../public/fonts/Alexandria-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Alexandria;
+  font-display: auto;
+  src: url("../public/fonts/Alexandria-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Alexandria;
+  font-display: auto;
+  src: url("../public/fonts/Alexandria-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Alexandria;
+  font-display: auto;
+  src: url("../public/fonts/Alexandria-Light.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: kitab;
+  font-display: auto;
+  src: url("../public/fonts/Kitab\ Bold.ttf");
+}
+
+@font-face {
+  font-family: qalam1;
+  font-display: auto;
+  src: url("../public/fonts/W_qalam\ Regular.ttf");
+}
+
+@font-face {
+  font-family: qalam2;
+  font-display: auto;
+  src: url("../public/fonts/Al\ Qalam\ Quran\ Majeed\ Web\ Regular.ttf");
+}
+
+@font-face {
+  font-family: othmani;
+  font-display: auto;
+  src: url("../public/fonts/UthmanicHafs1\ Ver13.otf");
+}
+
+@font-face {
+  font-family: droid;
+  font-display: auto;
+  src: url("../public/fonts/ArbFONTS-Droid-Naskh-Regular.ttf");
+}
+
+@font-face {
+  font-family: hafs;
+  font-display: auto;
+  src: url("../public/fonts/HafsNastaleeq\ Ver10.otf");
+}
+/* =====// CUSTOM FONTS //====== */
+
+.css-x3vexg-MuiGrid2-root {
+  align-items: center;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4a3b04;
+  border-radius: 10px;
+  background: #fede00;
+  padding: 0px;
+  width: 200px;
+  height: 30px;
+  margin-left: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4a3b04;
+  border-radius: 10px;
+  background: #fede00;
+  padding: 0px;
+  width: 140px;
+  height: 30px;
+  margin-left: 15%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Textlist {
+  text-align: justify;
+  margin-top: 5%;
+  text-align: start;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Textend {
+  color: #f4d92b;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 12px;
+  font-family: "Alexandria";
+  position: relative;
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #212121;
+  border: 1px solid #5b5959;
+  box-shadow: 0 3px 0 #5b5959;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  /* transform: translateY(3px); */
+  box-shadow: 0 0px 0 #fede00;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 1px 2px 2px 1px #fbc02d;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.button:before,
+.button:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+
+.button:hover:before {
+  top: -70%;
+  background-image: radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #fede00 20%, transparent 30%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #fede00 15%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: greentopBubbles 0.6s ease;
+}
+
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.button:hover::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #fede00 15%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%),
+    radial-gradient(circle, #fede00 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  background-position: 50% 0%;
+  animation: greenbottomBubbles 0.6s ease;
+}
+
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+      70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+      105% 0%;
+  }
+
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+      110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.outer-border {
+  border: 2px solid #0d0500;
+  height: 80vh;
+  width: 97%;
+  padding: 2px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.mid-border {
+  border: 6px solid #0d0500;
+  height: 80vh;
+  width: 95%;
+  padding: 4px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.inner-border {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  border: 2px solid #0d0500;
+  height: 80%;
+  width: 100%;
+  margin: auto;
+  overflow: scroll;
+  border-radius: 20px;
+}
+
+.titel-text {
+  display: flex;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #0d0500;
+  border-radius: 10px;
+  background: hsl(42, 42%, 9%);
+  height: 30px;
+}
+
+.suranumber {
+  display: inline-flex;
+  width: 28px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #4a3b04;
+  border-radius: 20px;
+  background: #fbc02d;
+}
+
+.suraname {
+  display: flex;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #4a3b04;
+  border-radius: 10px;
+  background: #fbc02d;
+  height: 30px;
+}
+
+.tfseer {
+  display: flex;
+  /* padding: 2px; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #4a3b04;
+  border-radius: 10px;
+  background: #4a3b04;
+  color: #f6f6f6;
+  /* height: 150px; */
+}
+
+/* Light Mode Styles */
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+.dark-mode button {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+.timeremaning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff8f00;
+  stroke: #f8f8f8;
+}
+
+.prayericonW {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.prayericonD {
+  color: rgba(255, 255, 255, 0.7);
+}
