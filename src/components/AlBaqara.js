@@ -416,7 +416,7 @@ const AlBaqara = ({ theme }) => {
       key={3}
       style={{
         // marginTop: 0,
-        maxHeight: "50vh",
+        maxHeight: "55vh",
         // maxWidth: "60.5vh",
         // background: "green",
         overflow: "scroll",
