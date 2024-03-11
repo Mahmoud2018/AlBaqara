@@ -498,60 +498,118 @@ export const Tabel = [
   },
 ];
 
-const cars = [
-  {
-    id: uuidv4(),
-    color: "purple",
-    type: "minivan",
-    good: 10,
-    bad: 5,
-  },
-  {
-    id: uuidv4(),
-    color: "red",
-    type: "station wagon",
-    good: 10,
-    bad: 5,
-  },
+export const Ayat = [
+  { id: 1, aya: "١٦-١" },
+  { id: 2, aya: "٢٤-١٧" },
+  { id: 3, aya: "٢٩-٢٥" },
+  { id: 4, aya: "٣٧-٣٠" },
+  { id: 5, aya: "٤٨-٣٨" },
+  { id: 6, aya: "٥٧-٤٩" },
+  { id: 7, aya: "مراجعة السابق" },
+  { id: 8, aya: "٦١-٥٨" },
+  { id: 9, aya: "٦٩-٦٢" },
+  { id: 10, aya: "٧٦-٧٠" },
+  { id: 11, aya: "٨٣-٧٧" },
+  { id: 12, aya: "٨٨-٨٤" },
+  { id: 13, aya: "٩٣-٨٩" },
+  { id: 14, aya: "مراجعة السابق" },
+  { id: 15, aya: "١٠١-٩٤" },
+  { id: 16, aya: "١٠٥-١٠٢" },
+  { id: 17, aya: "١١٢-١٠٦" },
+  { id: 18, aya: "١١٩-١١٣" },
+  { id: 19, aya: "١٢٦-١٢٠" },
+  { id: 20, aya: "١٣٤-١٢٧" },
+  { id: 21, aya: "مراجعة السابق" },
+  { id: 22, aya: "١٤١-١٣٥" },
+  { id: 23, aya: "١٤٥-١٤٢" },
+  { id: 24, aya: "١٥٣-١٤٦" },
+  { id: 25, aya: "١٦٣-١٥٤" },
+  { id: 26, aya: "١٦٩-١٦٤" },
+  { id: 27, aya: "١٧٦-١٧٠" },
+  { id: 28, aya: "مراجعة السابق" },
+  { id: 29, aya: "١٨١-١٧٧" },
+  { id: 30, aya: "١٨٦-١٨٢" },
+  { id: 31, aya: "١٩٠-١٨٧" },
+  { id: 32, aya: "١٩٦-١٩١" },
+  { id: 33, aya: "٢٠٢-١٩٧" },
+  { id: 34, aya: "٢١٠-٢٠٣" },
+  { id: 35, aya: "مراجعة السابق" },
+  { id: 36, aya: "٢١٥-٢١١" },
+  { id: 37, aya: "٢١٩-٢١٦" },
+  { id: 38, aya: "٢٢٤-٢٢٠" },
+  { id: 39, aya: "٢٣٠-٢٢٥" },
+  { id: 40, aya: "٢٣٣-٢٣١" },
+  { id: 41, aya: "٢٣٧-٢٣٤" },
+  { id: 42, aya: "مراجعة السابق" },
+  { id: 43, aya: "٢٤٥-٢٣٨" },
+  { id: 44, aya: "٢٤٨-٢٤٦" },
+  { id: 45, aya: "٢٥٢-٢٤٩" },
+  { id: 46, aya: "٢٥٦-٢٥٣" },
+  { id: 47, aya: "٢٥٩-٢٥٧" },
+  { id: 48, aya: "٢٦٤-٢٦٠" },
+  { id: 49, aya: "مراجعة السابق" },
+  { id: 50, aya: "٢٦٩-٢٦٥" },
+  { id: 51, aya: "٢٧٤-٢٧٠" },
+  { id: 52, aya: "٢٨١-٢٧٥" },
+  { id: 53, aya: "٢٨٢" },
+  { id: 54, aya: "٢٨٦-٢٨٣" },
+  { id: 55, aya: "مراجعة السابق" },
 ];
 
-// const [stateofaya, setStateOfaya] = useState(0);
-
-// const handleChange = (event) => {
-//   setStateOfaya(event.target.value);
-// }
-
-// const Lists = (
-//   <Card>
-//     {cars.map((task) => (
-//       <Card
-//         key={task.id}
-//         container="true"
-//         className="todoCard"
-//       >
-//         <Grid container="true" spacing={2}>
-
-//           <Grid xs={6}>
-//           <Box sx={{ minWidth: 120 }}>
-//               <FormControl fullWidth >
-//                 <InputLabel  id="demo-simple-select-label">الحالة</InputLabel>
-//                 <Select
-//                   labelId="demo-simple-select-label"
-//                   id="demo-simple-select"
-//                   value={stateofaya}
-//                   label="Age"
-//                   onChange={handleChange}
-//                 >
-//                   <MenuItem key={task.id}  value={task.good}>{task.good}</MenuItem>
-//                   <MenuItem key={task.id}  value={task.bad}>{task.bad}</MenuItem>
-//                 </Select>
-//               </FormControl>
-//           </Box>
-
-//           </Grid>
-
-//         </Grid>
-//       </Card>
-//     ))}
-//   </Card>
-// );
+export const ayanumbers = [
+  { id: 1, num1: 1, num2: 16 },
+  { id: 2, num1: 17, num2: 24 },
+  { id: 3, num1: 25, num2: 29 },
+  { id: 4, num1: 30, num2: 37 },
+  { id: 5, num1: 38, num2: 48 },
+  { id: 6, num1: 49, num2: 57 },
+  { id: 7, num1: 1, num2: 49 },
+  { id: 8, num1: 58, num2: 61 },
+  { id: 9, num1: 62, num2: 69 },
+  { id: 10, num1: 70, num2: 76 },
+  { id: 11, num1: 77, num2: 83 },
+  { id: 12, num1: 84, num2: 88 },
+  { id: 13, num1: 89, num2: 93 },
+  { id: 14, num1: 93, num2: 58 },
+  { id: 15, num1: 94, num2: 101 },
+  { id: 16, num1: 102, num2: 105 },
+  { id: 17, num1: 106, num2: 112 },
+  { id: 18, num1: 113, num2: 119 },
+  { id: 19, num1: 120, num2: 126 },
+  { id: 20, num1: 127, num2: 134 },
+  { id: 21, num1: 94, num2: 134 },
+  { id: 22, num1: 135, num2: 141 },
+  { id: 23, num1: 142, num2: 145 },
+  { id: 24, num1: 146, num2: 153 },
+  { id: 25, num1: 154, num2: 163 },
+  { id: 26, num1: 164, num2: 169 },
+  { id: 27, num1: 170, num2: 176 },
+  { id: 28, num1: 135, num2: 176 },
+  { id: 29, num1: 177, num2: 181 },
+  { id: 30, num1: 182, num2: 186 },
+  { id: 31, num1: 187, num2: 190 },
+  { id: 32, num1: 196, num2: 191 },
+  { id: 33, num1: 197, num2: 202 },
+  { id: 34, num1: 203, num2: 210 },
+  { id: 35, num1: 177, num2: 210 },
+  { id: 36, num1: 211, num2: 215 },
+  { id: 37, num1: 219, num2: 216 },
+  { id: 38, num1: 220, num2: 224 },
+  { id: 39, num1: 230, num2: 225 },
+  { id: 40, num1: 233, num2: 231 },
+  { id: 41, num1: 237, num2: 234 },
+  { id: 42, num1: 215, num2: 237 },
+  { id: 43, num1: 238, num2: 245 },
+  { id: 44, num1: 246, num2: 248 },
+  { id: 45, num1: 249, num2: 252 },
+  { id: 46, num1: 253, num2: 256 },
+  { id: 47, num1: 257, num2: 259 },
+  { id: 48, num1: 260, num2: 264 },
+  { id: 49, num1: 238, num2: 260 },
+  { id: 50, num1: 265, num2: 269 },
+  { id: 51, num1: 270, num2: 274 },
+  { id: 52, num1: 281, num2: 275 },
+  { id: 53, num1: 282, num2: 283 },
+  { id: 54, num1: 283, num2: 286 },
+  { id: 55, num1: 282, num2: 286 },
+];

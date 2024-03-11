@@ -15,7 +15,7 @@ import Portfolio from "./Portfolio";
 import Slide from "@mui/material/Slide";
 import Info from "./Info";
 import Container from "@mui/material/Container";
-
+import Quran from "./Quran";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -217,6 +217,7 @@ const AlBaqara = ({ theme }) => {
 
   const homePage = (
     <CardContent
+      item={true}
       container="true"
       key={1}
       spacing={2}
@@ -228,6 +229,7 @@ const AlBaqara = ({ theme }) => {
       }}
     >
       <Container
+        item={true}
         direction="row"
         style={{
           // marginTop: 30,
@@ -561,6 +563,8 @@ const AlBaqara = ({ theme }) => {
       {display === 0 ? (
         [homePage, tabs, Lists]
       ) : display === 1 ? (
+        <Quran />
+      ) : display === 2 ? (
         <Portfolio />
       ) : null}
 
@@ -646,6 +650,10 @@ const AlBaqara = ({ theme }) => {
         >
           <BottomNavigationAction
             label="  جدول الحفظ"
+            icon={<MenuBookIcon />}
+          />
+          <BottomNavigationAction
+            label=" قائمة الآيات "
             icon={<MenuBookIcon />}
           />
           <BottomNavigationAction label="عن المطور" icon={<InfoIcon />} />
