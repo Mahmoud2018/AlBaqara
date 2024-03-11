@@ -1,13 +1,11 @@
 import React, { useState, useContext } from "react";
-import { QData } from "./QData";
+import { QData } from "./AllData/QData";
 import ReactAudioPlayer from "react-audio-player";
-import { TafseerData } from "./TafseerData";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import Athkar from "./Athkar";
-import { Qurra } from "./Qurra";
+import { Qurra } from "./AllData/Qurra";
 import { DataContext } from "../contexts/DataContext";
 import { Ayat } from "./Tabel";
 import { ayanumbers } from "./Tabel";
@@ -93,11 +91,6 @@ function Quran() {
 
   const AudioUrl = `${quraa}${result}.mp3`;
 
-  const handleChange = (event) => {
-    setquraa(event.target.value);
-    localStorage.setItem("statofQurra", JSON.stringify(event.target.value));
-  };
-
   return (
     <>
       <div style={{ marginBottom: "5px" }}></div>
@@ -107,7 +100,7 @@ function Quran() {
         startIcon={<MenuBookIcon style={{ marginLeft: 10 }} />}
         onClick={suralistOpene}
       >
-        القرآن
+        فهرس الآيات
       </Button>
 
       <Button

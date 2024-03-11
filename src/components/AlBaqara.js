@@ -15,7 +15,7 @@ import Portfolio from "./Portfolio";
 import Slide from "@mui/material/Slide";
 import Info from "./Info";
 import Container from "@mui/material/Container";
-import Quran from "./Quran";
+import Quran from "./AyatList";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
