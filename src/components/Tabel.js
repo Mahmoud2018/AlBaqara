@@ -570,7 +570,7 @@ export const ayanumbers = [
   { id: 11, num1: 77, num2: 83 },
   { id: 12, num1: 84, num2: 88 },
   { id: 13, num1: 89, num2: 93 },
-  { id: 14, num1: 93, num2: 58 },
+  { id: 14, num1: 58, num2: 93 },
   { id: 15, num1: 94, num2: 101 },
   { id: 16, num1: 102, num2: 105 },
   { id: 17, num1: 106, num2: 112 },
