@@ -34,10 +34,10 @@ export default function DarkMode() {
           textAlign: "center",
           alignItems: "center",
           justifyContent: "center",
-          // flexDirection: "column",
+          flexDirection: "column",
         }}
       >
-        <Darkmode style={{ width: 20, height: 20 }} />
+        <Darkmode />
         <Typography
           color="primary"
           style={{ fontFamily: "BakbakOne", fontWeight: 600, fontSize: 12 }}

@@ -237,7 +237,7 @@ const AlBaqara = ({ theme }) => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          // flexDirection: "column",
+          flexDirection: "column",
         }}
       >
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
@@ -258,7 +258,15 @@ const AlBaqara = ({ theme }) => {
               onClick={infoOpene}
               color="primary"
               aria-label="add to shopping cart"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                flexDirection: "column",
+              }}
             >
+              <InfoIcon fontSize="large" />
+
               <Typography
                 style={{
                   // fontFamily: "kitab",
@@ -267,13 +275,11 @@ const AlBaqara = ({ theme }) => {
                   // marginLeft: 10,
                 }}
               >
-                شرح طريفة الحفظ
+                طريفة الحفظ
               </Typography>
-
-              <InfoIcon fontSize="large" />
             </IconButton>
             <Button
-              style={{ marginTop: 10, fontSize: 10 }}
+              style={{ marginTop: 10, fontSize: 10, marginRight: 20 }}
               size="small"
               onClick={DeletscoreOpene}
               variant="contained"
